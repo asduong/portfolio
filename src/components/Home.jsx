@@ -11,13 +11,25 @@ class Home extends React.Component {
         <h1>Andrew Duong</h1>
         <h5>Full Stack Developer</h5>
         <div>
-          <a href="https://github.com/asduong">
+          <a
+            href="https://github.com/asduong"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Icon height={25} width={40} fill={"#EAEAEA"}></Icon>
           </a>
-          <a href="mailto:duongandrews@gmail.com">
+          <a
+            href="mailto:duongandrews@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Mail height={25} width={40} fill={"#EAEAEA"}></Mail>
           </a>
-          <a href="https://www.linkedin.com/in/duong-andrew/">
+          <a
+            href="https://www.linkedin.com/in/duong-andrew/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <LinkedIn height={25} width={40} fill={"#EAEAEA"}></LinkedIn>
           </a>
         </div>

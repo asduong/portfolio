@@ -1,0 +1,18 @@
+body {
+  background-color: #2f323a;
+  color: #eaeaea;
+  font-family: "Open Sans", sans-serif;
+}
+
+hr {
+  border-color: #eaeaea;
+}
+
+a {
+  color: #eaeaea;
+}
+
+a:hover {
+  color: #eaeaea;
+  text-decoration: none;
+}
