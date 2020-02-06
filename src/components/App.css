@@ -10,9 +10,10 @@ hr {
 
 a {
   color: #eaeaea;
+  text-decoration: underline;
 }
 
 a:hover {
   color: #eaeaea;
-  text-decoration: none;
+  text-decoration: underline;
 }

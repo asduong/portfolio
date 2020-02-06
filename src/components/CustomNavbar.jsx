@@ -6,7 +6,7 @@ import "./CustomNavbar.css";
 export default class CustomNavbar extends React.Component {
   render() {
     return (
-      <Navbar default collapseOnSelect>
+      <Navbar default collapseOnSelect className="fixed-style">
         <Navbar>
           <Navbar.Brand className="brand-style">
             <Link to="/">Home</Link>
@@ -16,7 +16,7 @@ export default class CustomNavbar extends React.Component {
         <Navbar.Collapse>
           <Nav>
             <NavLink className="about-style" eventkey={1} to="/about">
-              About Me
+              About
             </NavLink>
             <NavLink className="project-style" eventkey={2} to="/projects">
               Projects

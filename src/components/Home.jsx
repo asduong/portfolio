@@ -8,29 +8,31 @@ class Home extends React.Component {
   render() {
     return (
       <div className="content">
-        <h1>Andrew Duong</h1>
-        <h5>Full Stack Developer</h5>
-        <div>
+        <h1>
+          Hello, I'm <span className="highlight">Andrew Duong</span>.
+        </h1>
+        <h1>I'm a full-stack web developer.</h1>
+        <div className="icon-style">
           <a
             href="https://github.com/asduong"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Icon height={25} width={40} fill={"#EAEAEA"}></Icon>
+            <Icon height={25} width={42} fill={"#EAEAEA"}></Icon>
           </a>
           <a
             href="mailto:duongandrews@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Mail height={25} width={40} fill={"#EAEAEA"}></Mail>
+            <Mail height={25} width={42} fill={"#EAEAEA"}></Mail>
           </a>
           <a
             href="https://www.linkedin.com/in/duong-andrew/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <LinkedIn height={25} width={40} fill={"#EAEAEA"}></LinkedIn>
+            <LinkedIn height={25} width={42} fill={"#EAEAEA"}></LinkedIn>
           </a>
         </div>
       </div>

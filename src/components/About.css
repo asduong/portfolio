@@ -1,3 +1,9 @@
 .about-content {
   margin: 5% 30%;
 }
+
+.title-style {
+  font-size: 45px;
+  margin-bottom: 4%;
+  font-weight: bold;
+}

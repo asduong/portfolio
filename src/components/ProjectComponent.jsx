@@ -1,9 +1,10 @@
 import React from "react";
+import "./ProjectComponent.css";
 
 const ProjectComponent = props => {
   return (
     <div>
-      <h2>{props.title}</h2>
+      <div className="title-style">{props.title}</div>
       <p>{props.content}</p>
       <p>
         <strong>Tech Stack: </strong>
@@ -17,7 +18,8 @@ const ProjectComponent = props => {
       <p>
         <strong>{props.description}</strong>
       </p>
-      <img src={props.img} alt="Project Image"></img>
+      <img src={props.img} alt=""></img>
+      <p>{props.details}</p>
       <hr></hr>
     </div>
   );

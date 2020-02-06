@@ -2,19 +2,25 @@ nav.navbar,
 .navbar-default {
   background-color: #202020 !important;
 }
+.fixed-style {
+  z-index: 10000;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
 
 .brand-style {
-  margin-left: 220%;
+  margin-left: 1010%;
 }
 
 .about-style {
   position: absolute;
-  right: 15%;
+  right: 34%;
   bottom: 30%;
 }
 
 .project-style {
   position: absolute;
-  right: 10%;
+  right: 30%;
   bottom: 30%;
 }
