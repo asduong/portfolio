@@ -1,19 +1,18 @@
 body {
   background-color: #2f323a;
-  color: #eaeaea;
+  color: #ccc;
   font-family: "Open Sans", sans-serif;
 }
 
 hr {
-  border-color: #eaeaea;
+  border-color: #ccc;
 }
 
 a {
-  color: #eaeaea;
-  text-decoration: underline;
+  color: #ccc;
 }
 
 a:hover {
-  color: #eaeaea;
+  color: #ccc;
   text-decoration: underline;
 }

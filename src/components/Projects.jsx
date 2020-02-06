@@ -11,7 +11,7 @@ const Projects = () => {
       <hr></hr>
       <ProjectComponent
         title="Night Owl"
-        content="Night Owl is an application that helps users find bars and clubs around using user pooled data. Users will be able to use the filters in the application to help them find their specified needs for the night. An all-in-one application to help users get from location A to B utilizing Uber's API and Google Maps API."
+        content="Night Owl is an application that helps users find bars and clubs around using user pooled data. Users will be able to use the filters in the application to help them find their specified needs for the night. Night Owl is an all-in-one application to help users get from their location to the destination utilizing Uber's API and Google Maps API."
         tech="ReactJS, NodeJS, Express, PostgreSQL"
         link="http://www.github.com"
         API="Google Maps, Uber"

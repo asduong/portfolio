@@ -11,32 +11,57 @@ const About = () => {
       <hr></hr>
       <p>
         Hello, my name is Andrew Duong. I am a Toronto based full stack web
-        developer. I love to solve challenging problems.
+        developer. I love to solve interesting problems.{" "}
+        <a
+          href="https://github.com/asduong/LeetCode"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <u>Here</u>
+        </a>{" "}
+        are some of the problems I've solved on LeetCode.
       </p>
 
       <p>
-        In 2017, I studied for and obtained the AWS Certified Solutions
-        Architect - Associate certification. I achieved one of my goals for the
-        year and decided to study for the other two associate certifications
-        from Amazon Web Services (AWS Certified Developer and AWS Certified
-        SysOps Administrator).
+        As a former IT Operations Engineer, I've learned to deal with problems
+        on a daily basis. Whether it was the servers on AWS, or problems with
+        users computers. This has drastically improved my problem solving skills
+        and has taught me how to Google things better. I've always known that
+        creating value, solving problems, and self improvement were things that
+        I've loved doing. Becoming a web developer was a natural extension of
+        those traits.
       </p>
       <p>
-        This lead me to Nomis Solutions, where I worked as an IT Operations
-        Engineer for two years. I was able to apply the things I learned from my
-        AWS studies and met some amazing people. These people inspired me to
-        delve deeper into coding as I was seeing the challenges they face on a
-        day to day basis.
+        Since graduating from Lighthouse Labs' full-time Web Development
+        bootcamp, I have taken a few courses to help strengthen my skills on
+        Udemy.
       </p>
       <p>
-        I ended up taking a part time Web Development bootcamp at Juno College
-        (Formerly HackerYou) in 2018-2019 after work and loved it. I decided
-        that I was going to take a full time bootcamp and found out about
-        Lighthouse Labs.
+        I'll never be satisfied with who I am. I hear a voice in my head telling
+        me I can do more and I can be better. But for now, this is who I
+        currently am.
       </p>
-      <img src={csa} alt="Certified Solutions Architect"></img>
-      <img src={developer} alt="Certified Developer"></img>
-      <img src={sysops} alt="Certified SysOps Administrator"></img>
+      <hr></hr>
+      <div>
+        <h4>Courses</h4>
+        <ul>
+          <li>Andrew Mead: The Complete Node.js Developer Course</li>
+          <li>
+            Bianca Gandolfo: JavaScript: From Fundamentals to Functional JS
+          </li>
+          <li>Stephen Grider: Modern React with Redux</li>
+        </ul>
+        <hr></hr>
+      </div>
+      <div>
+        <div className="certification-style">
+          Below are some of the certifications I've obtained:
+        </div>
+        <img src={csa} alt="Certified Solutions Architect"></img>
+        <img src={developer} alt="Certified Developer"></img>
+        <img src={sysops} alt="Certified SysOps Administrator"></img>
+      </div>
+      <hr></hr>
     </div>
   );
 };
