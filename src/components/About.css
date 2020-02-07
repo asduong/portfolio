@@ -1,8 +1,8 @@
 .about-content {
-  margin: 5% 33%;
+  margin: 2% 33%;
 }
 
-.title-style {
+.about-title {
   font-size: 45px;
   margin-bottom: 4%;
   font-weight: bold;
@@ -11,4 +11,3 @@
 .certification-style {
   margin-bottom: 1.5%;
 }
-

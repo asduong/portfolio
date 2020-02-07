@@ -7,7 +7,7 @@ const About = () => {
   const sysops = require("../images/aws-sysops.png");
   return (
     <div className="about-content">
-      <h1 className="title-style">About</h1>
+      <h1 className="about-title">About</h1>
       <hr></hr>
       <p>
         Hello, my name is Andrew Duong. I am a Toronto based full stack web

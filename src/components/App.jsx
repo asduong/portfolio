@@ -5,6 +5,7 @@ import Home from "./Home";
 import About from "./About";
 import Projects from "./Projects";
 import Navbar from "./CustomNavbar";
+import "../fonts/Inter-Light-BETA.otf";
 
 class App extends React.Component {
   render() {

@@ -1,26 +1,24 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./CustomNavbar.css";
 
 export default class CustomNavbar extends React.Component {
   render() {
     return (
-      <Navbar default collapseOnSelect className="fixed-style">
-        <Navbar>
-          <Navbar.Brand className="brand-style">
-            <Link to="/">Home</Link>
-          </Navbar.Brand>
-          <Navbar.Toggle />
-        </Navbar>
-        <Navbar.Collapse>
-          <Nav>
-            <NavLink className="about-style" eventkey={1} to="/about">
+      <Navbar expand="lg">
+        <Navbar.Brand to="/" eventkey={1} as={Link}>
+          Home
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="ml-auto">
+            <Nav.Link to="/about" eventkey={2} as={Link}>
               About
-            </NavLink>
-            <NavLink className="project-style" eventkey={2} to="/projects">
+            </Nav.Link>
+            <Nav.Link to="/projects" eventkey={3} as={Link}>
               Projects
-            </NavLink>
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

@@ -18,21 +18,21 @@ class Home extends React.Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Icon height={25} width={42} fill={"#EAEAEA"}></Icon>
+            <Icon height={25} width={42} fill={"#A9A9B3"}></Icon>
           </a>
           <a
             href="mailto:duongandrews@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Mail height={25} width={42} fill={"#EAEAEA"}></Mail>
+            <Mail height={25} width={42} fill={"#A9A9B3"}></Mail>
           </a>
           <a
             href="https://www.linkedin.com/in/duong-andrew/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <LinkedIn height={25} width={42} fill={"#EAEAEA"}></LinkedIn>
+            <LinkedIn height={25} width={42} fill={"#A9A9B3"}></LinkedIn>
           </a>
         </div>
       </div>

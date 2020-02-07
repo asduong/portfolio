@@ -1,18 +1,19 @@
 body {
   background-color: #2f323a;
-  color: #ccc;
-  font-family: "Open Sans", sans-serif;
+  color: #a9a9b3;
+  font-family: "inter ui", sans-serif;
+  font-size: 16px;
 }
 
 hr {
-  border-color: #ccc;
+  border-color: #a9a9b3;
 }
 
 a {
-  color: #ccc;
+  color: #a9a9b3;
 }
 
 a:hover {
-  color: #ccc;
+  color: #a9a9b3;
   text-decoration: underline;
 }

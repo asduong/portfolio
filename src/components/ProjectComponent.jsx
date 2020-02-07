@@ -1,5 +1,4 @@
 import React from "react";
-import { Image } from "react-bootstrap";
 import "./ProjectComponent.css";
 
 const ProjectComponent = props => {
@@ -23,7 +22,7 @@ const ProjectComponent = props => {
       <p>
         <strong>{props.description}</strong>
       </p>
-      <Image src={props.img} alt=""></Image>
+      <img src={props.img} alt=""></img>
       <p>{props.details}</p>
       <hr></hr>
     </div>
