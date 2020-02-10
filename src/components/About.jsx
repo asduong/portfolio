@@ -24,7 +24,7 @@ const About = () => {
 
       <p>
         As a former IT Operations Engineer, I've learned to deal with problems
-        on a daily basis. Whether it was the servers on AWS, or problems with
+        on a daily basis. Whether it was the servers on AWS, or problems with an
         users computers. This has drastically improved my problem solving skills
         and has taught me how to Google things better. I've always known that
         creating value, solving problems, and self improvement were things that
@@ -34,13 +34,14 @@ const About = () => {
       <p>
         Since graduating from Lighthouse Labs' full-time Web Development
         bootcamp, I have taken a few courses to help strengthen my skills on
-        Udemy.
+        Udemy.{" "}
+        <u>
+          <a href="https://github.com/asduong">Here</a>
+        </u>{" "}
+        is my Github to view some of my new projects that I've worked on since
+        attending bootcamp.
       </p>
-      <p>
-        I'll never be satisfied with who I am. I hear a voice in my head telling
-        me I can do more and I can be better. But for now, this is who I
-        currently am.
-      </p>
+
       <hr></hr>
       <div>
         <h4>Courses</h4>
