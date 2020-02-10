@@ -14,15 +14,9 @@ nav.navbar,
   color: #a9a9b3 !important;
 }
 
-nav.navbar,
-.navbar-collapse {
-  color: #a9a9b3 !important;
-}
-
 .fixed-style {
   z-index: 10000;
   position: fixed;
   top: 0px;
   width: 100%;
 }
-

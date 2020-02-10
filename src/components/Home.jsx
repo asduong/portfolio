@@ -7,7 +7,7 @@ import { ReactComponent as LinkedIn } from "../icons/linkedin.svg";
 class Home extends React.Component {
   render() {
     return (
-      <div className="content">
+      <div className="content home-responsive-content">
         <h1>
           Hello, I'm <span className="highlight">Andrew Duong</span>.
         </h1>

@@ -6,7 +6,7 @@ const Projects = () => {
   const roundup = require("../images/roundup.png");
   const main = require("../images/main.png");
   return (
-    <div className="project-content">
+    <div className="project-content project-responsive-content">
       <h1 className="project-title">Projects</h1>
       <hr></hr>
       <ProjectComponent

@@ -6,7 +6,7 @@ const About = () => {
   const developer = require("../images/aws-developer.png");
   const sysops = require("../images/aws-sysops.png");
   return (
-    <div className="about-content">
+    <div className="about-content about-responsive-content">
       <h1 className="about-title">About</h1>
       <hr></hr>
       <p>
@@ -25,7 +25,7 @@ const About = () => {
       <p>
         As a former IT Operations Engineer, I've learned to deal with problems
         on a daily basis. Whether it was the servers on AWS, or problems with an
-        users computers. This has drastically improved my problem solving skills
+        users computer. This has drastically improved my problem solving skills
         and has taught me how to Google things better. I've always known that
         creating value, solving problems, and self improvement were things that
         I've loved doing. Becoming a web developer was a natural extension of
