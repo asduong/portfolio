@@ -4,6 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 35px;
 }
 
 .highlight {
@@ -23,6 +24,7 @@
     align-items: center;
     justify-content: center;
     margin: 50px 0;
+    font-size: 20px;
   }
 }
 
@@ -35,6 +37,7 @@
     align-items: center;
     justify-content: center;
     margin: 50px 0;
+    font-size: 20px;
   }
 }
 
@@ -47,6 +50,7 @@
     align-items: center;
     justify-content: center;
     margin: 50px 0;
+    font-size: 20px;
   }
 }
 
@@ -61,6 +65,7 @@
     align-items: center;
     justify-content: center;
     margin: 50px 0;
+    font-size: 20px;
   }
 }
 
@@ -73,6 +78,7 @@
     align-items: center;
     justify-content: center;
     margin: 50px 0;
+    font-size: 20px;
   }
 }
 
@@ -85,6 +91,9 @@
     align-items: center;
     justify-content: center;
     margin: 50px 0;
+  }
+  .home-responsive-text {
+    margin-bottom: 10%;
   }
 }
 
@@ -99,6 +108,7 @@
     align-items: center;
     justify-content: center;
     margin: 50px 0;
+    font-size: 20px;
   }
 }
 
@@ -111,6 +121,7 @@
     align-items: center;
     justify-content: center;
     margin: 50px 0;
+    font-size: 20px;
   }
 }
 
@@ -123,6 +134,7 @@
     align-items: center;
     justify-content: center;
     margin: 50px 0;
+    font-size: 20px;
   }
 }
 
@@ -136,6 +148,8 @@
     flex: 1 auto;
     align-items: center;
     justify-content: center;
+    margin: 50px 0;
+    font-size: 20px;
   }
 }
 
@@ -147,6 +161,8 @@
     flex: 1 auto;
     align-items: center;
     justify-content: center;
+    margin: 50px 0;
+    font-size: 20px;
   }
 }
 
@@ -158,6 +174,8 @@
     flex: 1 auto;
     align-items: center;
     justify-content: center;
+    margin: 50px 0;
+    font-size: 20px;
   }
 }
 
@@ -172,6 +190,7 @@
     align-items: center;
     justify-content: center;
     margin: 50px 0;
+    font-size: 20px;
   }
 }
 
@@ -184,6 +203,7 @@
     align-items: center;
     justify-content: center;
     margin: 50px 0;
+    font-size: 20px;
   }
 }
 
@@ -196,5 +216,6 @@
     align-items: center;
     justify-content: center;
     margin: 50px 0;
+    font-size: 20px;
   }
 }
