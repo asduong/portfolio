@@ -1,6 +1,6 @@
 .content {
-  height: 90vh;
   display: flex;
+  height: 90vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
