@@ -10,11 +10,10 @@ hr {
 }
 
 a {
-  color: #a9a9b3;
+  color: inherit;
 }
 
 a:hover {
   color: #a9a9b3;
   text-decoration: underline;
 }
-

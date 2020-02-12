@@ -2,6 +2,7 @@ import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./CustomNavbar.css";
+import ThemeToggle from "./ThemeToggle";
 
 export default class CustomNavbar extends React.Component {
   render() {
@@ -21,6 +22,7 @@ export default class CustomNavbar extends React.Component {
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
+        <ThemeToggle />
       </Navbar>
     );
   }
