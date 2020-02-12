@@ -24,12 +24,12 @@ const About = () => {
 
       <p>
         As a former IT Operations Engineer, I've learned to deal with problems
-        on a daily basis. Whether it was the servers on AWS, or problems with an
+        on a daily basis. Whether it was the servers on AWS, or problems with a
         users computer. This has drastically improved my problem solving skills
         and has taught me how to Google things better. I've always known that
-        creating value, solving problems, and self improvement were things that
-        I've loved doing. Becoming a web developer was a natural extension of
-        those traits.
+        creating value, solving problems, and self improvement was something I
+        love doing. Becoming a web developer was a natural extension of those
+        traits.
       </p>
       <p>
         Since graduating from Lighthouse Labs' full-time Web Development

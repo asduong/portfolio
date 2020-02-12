@@ -11,7 +11,8 @@ export default class CustomNavbar extends React.Component {
         <Navbar.Brand to="/" eventkey={1} as={Link}>
           Home
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <ThemeToggle />
+        <Navbar.Toggle />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
             <Nav.Link to="/about" eventkey={2} as={Link}>
@@ -22,7 +23,6 @@ export default class CustomNavbar extends React.Component {
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
-        <ThemeToggle />
       </Navbar>
     );
   }
