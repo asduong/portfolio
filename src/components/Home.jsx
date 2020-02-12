@@ -8,10 +8,10 @@ class Home extends React.Component {
   render() {
     return (
       <div className="content home-responsive-content">
-        <div>
+        <h1>
           Hello, I'm <span className="highlight">Andrew Duong</span>.
-        </div>
-        <div>I'm a full-stack web developer.</div>
+        </h1>
+        <h1>I'm a full-stack web developer.</h1>
         <div className="icon-style">
           <a
             href="https://github.com/asduong"

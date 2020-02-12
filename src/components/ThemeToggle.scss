@@ -28,6 +28,17 @@ body.dark-mode {
   padding: 20px;
 }
 
+img {
+  width: 100%;
+}
+
+button {
+  color: #006688;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
 .dark-mode-toggle {
   display: flex;
   margin: 0 auto;
