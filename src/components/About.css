@@ -3,7 +3,7 @@
 }
 
 .about-title {
-  font-size: 45px;
+  font-size: 32px;
   margin-bottom: 4%;
   font-weight: bold;
 }
@@ -22,6 +22,7 @@
     align-items: center;
     justify-content: center;
     margin: 50px 0;
+    padding: 20px;
   }
 }
 
@@ -34,6 +35,7 @@
     align-items: center;
     justify-content: center;
     margin: 50px 0;
+    padding: 20px;
   }
 }
 
@@ -46,6 +48,7 @@
     align-items: center;
     justify-content: center;
     margin: 50px 0;
+    padding: 20px;
   }
 }
 
@@ -60,6 +63,7 @@
     align-items: center;
     justify-content: center;
     margin: 50px 0;
+    padding: 20px;
   }
 }
 
@@ -72,6 +76,7 @@
     align-items: center;
     justify-content: center;
     margin: 50px 0;
+    padding: 20px;
   }
 }
 
@@ -84,6 +89,7 @@
     align-items: center;
     justify-content: center;
     margin: 50px 0;
+    padding: 20px;
   }
 }
 
@@ -98,6 +104,7 @@
     align-items: center;
     justify-content: center;
     margin: 50px 0;
+    padding: 20px;
   }
 }
 
@@ -110,6 +117,7 @@
     align-items: center;
     justify-content: center;
     margin: 50px 0;
+    padding: 20px;
   }
 }
 
@@ -122,6 +130,7 @@
     align-items: center;
     justify-content: center;
     margin: 50px 0;
+    padding: 20px;
   }
 }
 
@@ -136,6 +145,7 @@
     align-items: center;
     justify-content: center;
     margin: 50px 0;
+    padding: 20px;
   }
 }
 
@@ -148,6 +158,7 @@
     align-items: center;
     justify-content: center;
     margin: 50px 0;
+    padding: 20px;
   }
 }
 
@@ -160,6 +171,7 @@
     align-items: center;
     justify-content: center;
     margin: 50px 0;
+    padding: 20px;
   }
 }
 
@@ -174,6 +186,7 @@
     align-items: center;
     justify-content: center;
     margin: 50px 0;
+    padding: 20px;
   }
 }
 
@@ -186,6 +199,7 @@
     align-items: center;
     justify-content: center;
     margin: 50px 0;
+    padding: 20px;
   }
 }
 
@@ -198,5 +212,6 @@
     align-items: center;
     justify-content: center;
     margin: 50px 0;
+    padding: 20px;
   }
 }

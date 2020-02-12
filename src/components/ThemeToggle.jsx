@@ -3,7 +3,7 @@ import React from "react";
 import Toggle from "./Toggle";
 import useDarkMode from "use-dark-mode";
 
-import "./ThemeToggle.scss";
+import "./Navbar.scss";
 
 const DarkModeToggle = () => {
   const darkMode = useDarkMode(false);
