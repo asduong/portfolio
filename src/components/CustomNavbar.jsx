@@ -14,9 +14,7 @@ export default class CustomNavbar extends React.Component {
           <span className="logo__text">$ cd /home/</span>
           <span className="logo__cursor"></span>
         </Navbar.Brand>
-        <div style={{ position: "relative", float: "right" }}>
-          <ThemeToggle />
-        </div>
+        <ThemeToggle />
         <Navbar.Toggle className="ml-auto" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">

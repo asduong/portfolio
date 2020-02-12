@@ -311,3 +311,198 @@
     box-shadow: none;
   }
 }
+
+/* ----------- Galaxy S3 ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {
+  .home-responsive-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1 auto;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  .navbar-toggler:focus,
+  .navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+/* Portrait */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) {
+  .home-responsive-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1 auto;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  .navbar-toggler:focus,
+  .navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+/* Landscape */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) {
+  .home-responsive-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1 auto;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  .navbar-toggler:focus,
+  .navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+/* ----------- Galaxy S4, S5 and Note 3 ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+  .home-responsive-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1 auto;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  .navbar-toggler:focus,
+  .navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+/* Portrait */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+  .home-responsive-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1 auto;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  .navbar-toggler:focus,
+  .navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+/* Landscape */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+  .home-responsive-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1 auto;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  .navbar-toggler:focus,
+  .navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+/* ----------- Galaxy S6 ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) {
+  .home-responsive-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1 auto;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  .navbar-toggler:focus,
+  .navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+/* Portrait */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) and (orientation: portrait) {
+  .home-responsive-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1 auto;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  .navbar-toggler:focus,
+  .navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+/* Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) and (orientation: landscape) {
+  .home-responsive-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1 auto;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  .navbar-toggler:focus,
+  .navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+  }
+}

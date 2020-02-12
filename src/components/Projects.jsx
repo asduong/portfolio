@@ -17,6 +17,7 @@ const Projects = () => {
         API="Google Maps, Uber"
         description="Main Page View"
         img={nightowl}
+        details="More images available on Github."
       ></ProjectComponent>
       <ProjectComponent
         title="Round Up"
