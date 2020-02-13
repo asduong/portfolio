@@ -5,10 +5,20 @@ import "./Projects.css";
 const Projects = () => {
   const roundup = require("../images/roundup.png");
   const nightowl = require("../images/main.png");
+  const search = require("../images/search.png");
   return (
     <div className="project-content project-responsive-content">
       <h1 className="project-title">Projects</h1>
       <hr></hr>
+      <ProjectComponent
+        title="Photo Search Engine - Unsplash API"
+        content="This photo search engine utilizes the Unsplash API to help users search for free high-resolution photos."
+        tech="ReactJS, Axios"
+        link="https://github.com/asduong"
+        API="Unsplash"
+        description="Photo Search Bar"
+        img={search}
+      ></ProjectComponent>
       <ProjectComponent
         title="Night Owl"
         content="Night Owl is an application that helps users find bars and clubs around using user pooled data. Users will be able to use the filters in the application to help them find their specified needs for the night. Night Owl is an all-in-one application to help users get from their location to the destination utilizing Uber's API and Google Maps API."
