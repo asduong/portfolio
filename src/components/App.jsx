@@ -5,6 +5,7 @@ import Home from "./Home";
 import About from "./About";
 import Projects from "./Projects";
 import Navbar from "./CustomNavbar";
+import Footer from "./Footer";
 import "../fonts/Inter-Light-BETA.otf";
 
 class App extends React.Component {
@@ -16,6 +17,7 @@ class App extends React.Component {
           <Route exact path="/" component={Home}></Route>
           <Route path="/about" component={About}></Route>
           <Route path="/projects" component={Projects}></Route>
+          <Footer />
         </div>
       </Router>
     );

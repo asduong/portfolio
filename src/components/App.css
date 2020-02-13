@@ -17,3 +17,9 @@ a:hover {
   color: #a9a9b3;
   text-decoration: underline;
 }
+
+footer {
+  text-align: center;
+  clear: both;
+  position: relative;
+}
