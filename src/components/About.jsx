@@ -36,7 +36,13 @@ const About = () => {
         bootcamp, I have taken a few courses to help strengthen my skills on
         Udemy.{" "}
         <u>
-          <a href="https://github.com/asduong">Here</a>
+          <a
+            href="https://github.com/asduong"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Here
+          </a>
         </u>{" "}
         is my Github to view some of my new projects that I've worked on since
         attending bootcamp.
@@ -44,7 +50,9 @@ const About = () => {
 
       <hr></hr>
       <div>
-        <h4>Courses</h4>
+        <h4>
+          <strong>Courses</strong>
+        </h4>
         <ul>
           <li>Andrew Mead: The Complete Node.js Developer Course</li>
           <li>

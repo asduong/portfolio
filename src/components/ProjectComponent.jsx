@@ -12,7 +12,7 @@ const ProjectComponent = props => {
       </p>
       <p>
         <strong>Github:</strong>{" "}
-        <a href={props.link}>
+        <a href={props.link} target="_blank" rel="noopener noreferrer">
           <u>{props.title}</u>
         </a>{" "}
         <br />
