@@ -14,7 +14,7 @@ const Projects = () => {
         title="Photo Search Engine - Unsplash API"
         content="This photo search engine utilizes the Unsplash API to help users search for free high-resolution photos."
         tech="ReactJS, Axios"
-        link="https://github.com/asduong"
+        link="https://github.com/asduong/unsplash-image-search-react"
         API="Unsplash"
         description="Photo Search Bar"
         img={search}
