@@ -54,11 +54,61 @@ const About = () => {
           <strong>Courses</strong>
         </h4>
         <ul>
-          <li>Andrew Mead: The Complete Node.js Developer Course</li>
           <li>
-            Bianca Gandolfo: JavaScript: From Fundamentals to Functional JS
+            <a
+              href="https://www.udemy.com/course/the-complete-nodejs-developer-course-2/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Andrew Mead: The Complete Node.js Developer Course
+            </a>
           </li>
-          <li>Stephen Grider: Modern React with Redux</li>
+          <li>
+            <a
+              href="https://frontendmasters.com/courses/js-fundamentals-functional-v2/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Bianca Gandolfo: JavaScript: From Fundamentals to Functional JS
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://frontendmasters.com/courses/getting-started-javascript-v2/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Kyle Simpson: Getting Started with JavaScript, v2
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://java-programming.mooc.fi/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Mooc: Java Programming I & Java Programming II (In Progress)
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.udemy.com/course/react-redux/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Stephen Grider: Modern React with Redux
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://frontendmasters.com/courses/object-oriented-js/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Will Sentance: JavaScript - The Hard Parts of Object Oriented
+              JavaScript (In Progress)
+            </a>
+          </li>
         </ul>
         <hr></hr>
       </div>

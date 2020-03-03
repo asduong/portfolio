@@ -6,10 +6,20 @@ const Projects = () => {
   const roundup = require("../images/roundup.png");
   const nightowl = require("../images/main.png");
   const search = require("../images/search.png");
+  const selectedSongs = require("../images/selectedsong.png");
   return (
     <div className="project-content project-responsive-content">
       <h1 className="project-title">Projects</h1>
       <hr></hr>
+      <ProjectComponent
+        title="Song Details List"
+        content="A simple application to display details of a song when selected using Redux to manage state"
+        tech="ReactJS, Redux"
+        link="https://github.com/asduong/songs"
+        API="None"
+        description="Selected Song Details"
+        img={selectedSongs}
+      ></ProjectComponent>
       <ProjectComponent
         title="Photo Search Engine - Unsplash API"
         content="This photo search engine utilizes the Unsplash API to help users search for free high-resolution photos."
