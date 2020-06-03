@@ -34,7 +34,7 @@ const About = () => {
       <p>
         Since graduating from Lighthouse Labs' full-time Web Development
         bootcamp, I have taken a few courses to help strengthen my skills on
-        Udemy.{" "}
+        Udemy and Frontend Masters.{" "}
         <u>
           <a
             href="https://github.com/asduong"
@@ -83,15 +83,6 @@ const About = () => {
           </li>
           <li>
             <a
-              href="https://java-programming.mooc.fi/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Mooc: Java Programming I & Java Programming II (In Progress)
-            </a>
-          </li>
-          <li>
-            <a
               href="https://www.udemy.com/course/react-redux/"
               target="_blank"
               rel="noopener noreferrer"
@@ -106,7 +97,16 @@ const About = () => {
               rel="noopener noreferrer"
             >
               Will Sentance: JavaScript - The Hard Parts of Object Oriented
-              JavaScript (In Progress)
+              JavaScript
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://frontendmasters.com/courses/javascript-hard-parts-v2/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Will Sentance: JavaScript - The Hard Parts, v2
             </a>
           </li>
         </ul>
