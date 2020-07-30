@@ -12,6 +12,14 @@ const Projects = () => {
       <h1 className="project-title">Projects</h1>
       <hr></hr>
       <ProjectComponent
+        title="Driver Dispatcher"
+        content="An application to help the dispatcher manage the driver's schedule"
+        tech="ReactJS"
+        link="https://github.com/asduong/dispatcher"
+        API="React Big Calendar"
+        description=""
+      ></ProjectComponent>
+      <ProjectComponent
         title="Song Details List"
         content="A simple application to display details of a song when selected using Redux to manage state"
         tech="ReactJS, Redux"
