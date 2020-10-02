@@ -1,7 +1,7 @@
 import React from "react";
 import "./ProjectComponent.css";
 
-const ProjectComponent = props => {
+const ProjectComponent = (props) => {
   return (
     <div>
       <div className="title-style">{props.title}</div>
@@ -16,8 +16,12 @@ const ProjectComponent = props => {
           <u>{props.title}</u>
         </a>{" "}
         <br />
-        <strong>API: </strong>
-        {props.API}
+      </p>
+      <p>
+        <strong>Project Link:</strong>{" "}
+        <a href={props.website} target="_blank" rel="noopener noreferrer">
+          <u>{props.title}</u>
+        </a>{" "}
       </p>
       <p>
         <strong>{props.description}</strong>
