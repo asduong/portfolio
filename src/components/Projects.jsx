@@ -17,7 +17,6 @@ const Projects = () => {
         content="An application to help the dispatcher manage multiple driver's schedule by creating and editing events. The dispatcher will be able to filter each driver's schedule as well as export their schedules out to a CSV file."
         tech="ReactJS"
         link="https://github.com/asduong/dispatcher"
-        website="https://www.andrewduong.ca/#/dispatcher"
         description="Driver Dispatcher Calendar View"
         img={dispatcher}
       ></ProjectComponent>

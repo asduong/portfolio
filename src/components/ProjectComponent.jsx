@@ -1,5 +1,5 @@
-import React from "react";
-import "./ProjectComponent.css";
+import React from 'react';
+import './ProjectComponent.css';
 
 const ProjectComponent = (props) => {
   return (
@@ -11,18 +11,13 @@ const ProjectComponent = (props) => {
         {props.tech}
       </p>
       <p>
-        <strong>Github:</strong>{" "}
+        <strong>Github:</strong>{' '}
         <a href={props.link} target="_blank" rel="noopener noreferrer">
           <u>{props.title}</u>
-        </a>{" "}
+        </a>{' '}
         <br />
       </p>
-      <p>
-        <strong>Project Link:</strong>{" "}
-        <a href={props.website} target="_blank" rel="noopener noreferrer">
-          <u>{props.title}</u>
-        </a>{" "}
-      </p>
+
       <p>
         <strong>{props.description}</strong>
       </p>
